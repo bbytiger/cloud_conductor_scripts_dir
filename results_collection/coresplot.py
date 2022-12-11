@@ -34,7 +34,7 @@ for i in range(3):
                     textcoords="offset points", # how to position the text
                     xytext=(10,10) if coredata[i][2] != "blue" else (0,10) , # distance from text to points (x,y)
                     ha='center',
-                    fontsize=8)
+                    fontsize=12)
 
 plt.title("Comparing Cost and Performance Across # of Cores")
 plt.xlabel("Runtime (s)")

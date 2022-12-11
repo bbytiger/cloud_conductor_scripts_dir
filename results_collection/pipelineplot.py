@@ -49,7 +49,7 @@ for i in range(4):
                     textcoords="offset points", # how to position the text
                     xytext=create_offsets(y[2]), # distance from text to points (x,y)
                     ha='center',
-                    fontsize=8)
+                    fontsize=12)
 
 plt.title("Comparing Cost and Performance of MNIST Pipeline Across Clouds")
 plt.xlabel("Runtime (s)")
